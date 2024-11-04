@@ -18,6 +18,18 @@ author:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-toc
+
+# Table of Contents settings
+toc:
+  min_level: 2
+  max_level: 6
+  no_toc_section_class: "no_toc"
+  list_class: "toc-list"
+  item_class: "toc-list-item"
+  sublist_class: "toc-sublist"
+  no_toc_class: "toc-no-list"
+  no_toc_section_id: "no_toc_section"
 
 # Social media settings
 social:
