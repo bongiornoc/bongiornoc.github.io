@@ -1,0 +1,43 @@
+title: "Christian Bongiorno"
+email: "christian.bongiorno@centralesupelec.fr"
+description: "Christian Bongiorno's professional profile and publications."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bongiornoc.github.io" # the base hostname & protocol for your site
+github_username: "bongiornoc"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Author settings
+author:
+  name: "Christian Bongiorno"
+  email: "christian.bongiorno@centralesupelec.fr"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social media settings
+social:
+  twitter: your_twitter_handle
+  github: bongiornoc
+  linkedin: your_linkedin_profile
+
+# Exclude from processing
+exclude:
+  - README.md
+
+# Include in processing
+include:
+  - _pages
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Christian Bongiorno"
